@@ -22,6 +22,6 @@ router = routers.DefaultRouter()
 router.register(r'lawsuits', LawsuitViewSet)
 
 urlpatterns = [
-    path('', include(router.urls)),
+    path('', include(router.urls)), # routers may be replaced by court_app if wished
     path('admin/', admin.site.urls),
 ]

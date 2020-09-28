@@ -4,4 +4,8 @@ from court_app.models import Lawsuit
 class LawsuitSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Lawsuit
-        fields = ['url', 'n_processo', 'id_cliente', 'favor_contribuinte', 'ementa']
+        fields = ['pk', 'n_processo', 'id_cliente', 'favor_contribuinte', 'ementa']
+
+    def natural_key(self):
+        return (self.pk, self.n_processo, self.id_cliente, self.favor_contribuinte,
+                                                               self.ementa)

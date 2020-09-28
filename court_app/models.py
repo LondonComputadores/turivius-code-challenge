@@ -10,7 +10,7 @@ class Lawsuit(models.Model):
     n_processo = models.CharField(max_length=30, unique=True)
     id_cliente = models.IntegerField()    
     favor_contribuinte = models.CharField(max_length=1, choices=STATUS_CHOICES)
-    ementa = models.CharField(max_length=100)
+    ementa = models.TextField()
 
     def __str__(self):
         return self.n_processo
