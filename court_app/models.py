@@ -13,4 +13,4 @@ class Lawsuit(models.Model):
     ementa = models.TextField()
 
     def __str__(self):
-        return self.n_processo
+        return self.n_processo 
