@@ -1,4 +1,6 @@
-# turivius-code-challenge
+                    
+                    # Turivius-Code-Challenge
+
 This is a code challenge as part of the Turivius recruitment process
 
 How it's being built:
@@ -14,3 +16,7 @@ How it's being built:
 - Create the models
 - Registered the models
 - Created super user
+- $ pip install djangorestframework
+- Created serializers module
+- Created views/ViewSet
+- Configured urls
