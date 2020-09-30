@@ -38,6 +38,7 @@ How it's being built:
 - https://docs.djangoproject.com/en/3.0/howto/initial-data/#providing-data-with-fixtures
 - https://docs.djangoproject.com/en/3.0/topics/serialization/
 - https://code.djangoproject.com/wiki/Fixtures
+- https://howtojsonapi.com/django.html
 - https://forum.djangoproject.com/t/getting-a-deserializationerror-when-trying-to-load-data-from-json-to-db/2713
 - https://stackoverflow.com/questions/54617353/django-deserialization-error-problem-installing-fixture
 - https://medium.com/@beatrizuezu/visualizando-query-sql-a-partir-do-orm-django-5771370a9c55
