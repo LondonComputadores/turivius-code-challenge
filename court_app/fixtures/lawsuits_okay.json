@@ -1,0 +1,63 @@
+[
+    {
+        "model": "court_app.lawsuit",
+        "pk": 1,
+        "fields": {
+            "n_processo": "202011551",
+            "id_cliente": 1,
+            "favor_contribuinte": 1,
+            "ementa": "aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbcccccc..."
+        }
+    },
+    {
+        "model": "court_app.lawsuit",
+        "pk": 2,
+        "fields": {
+          "n_processo": "202011552",
+          "id_cliente": 1,
+          "favor_contribuinte": 1,
+          "ementa": "aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbcccccc..."
+        }
+    },
+    {
+        "model": "court_app.lawsuit",
+        "pk": 3,
+        "fields": {
+          "n_processo": "202011553",
+          "id_cliente": 1,
+          "favor_contribuinte": 1,
+          "ementa": "aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbcccccc..."
+        }
+      },
+      {
+        "model": "court_app.lawsuit",
+        "pk": 4,
+        "fields": {
+          "n_processo": "202011554",
+          "id_cliente": 1,
+          "favor_contribuinte": 1,
+          "ementa": "aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbcccccc..."
+        }
+      },
+      {
+        "model": "court_app.lawsuit",
+        "pk": 5,
+        "fields": {
+          "n_processo": "202011555",
+          "id_cliente": 1,
+          "favor_contribuinte": 1,
+          "ementa": "aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbcccccc..."
+        }
+      },
+      {
+        "model": "court_app.lawsuit",
+        "pk": 6,
+        "fields": {
+          "n_processo": "202011556",
+          "id_cliente": 1,
+          "favor_contribuinte": 1,
+          "ementa": "aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbcccccc..."
+        }
+      }
+  ]
+  
