@@ -20,6 +20,13 @@ How it's being built:
 - Created serializers module
 - Created views/ViewSet
 - Configured urls
+- populated with a json file
+- $ python manage.py loaddata <json_file_name>
+- Dockerfile
+- $ docker build .
+- docker-compose.yml
+- $ docker-compose build
+- run the container $ docker-compose up -d
 
 
 # Endpoints for GET, POST, PUT and DELETE:
@@ -44,3 +51,4 @@ How it's being built:
 - https://medium.com/@beatrizuezu/visualizando-query-sql-a-partir-do-orm-django-5771370a9c55
 - https://github.com/beatrizuezu/de-sql-para-orm-django/tree/master/core/categorias
 - https://testdriven.io/blog/dockerizing-django-with-postgres-gunicorn-and-nginx/
+- https://docs.docker.com/engine/reference/builder/
