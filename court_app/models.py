@@ -21,5 +21,7 @@ class Lawsuit(models.Model):
     ementa = models.TextField()
 
     def __str__(self):
-        """Set the object that will be represented by for searches"""
-        return self.n_processo 
+        """Set the object that will be represented on searches"""
+        #return self.n_processo  # uncomment this or may used as below:
+        return '{}: - {}: - {}: - {}:'.format(self.n_processo, self.id_cliente,
+                                            self.favor_contribuinte, self.ementa)

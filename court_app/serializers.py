@@ -9,4 +9,4 @@ class LawsuitSerializer(serializers.HyperlinkedModelSerializer):
 
     def natural_key(self):
         return (self.pk, self.n_processo, self.id_cliente, self.favor_contribuinte,
-                                                               self.ementa)
+                                                                       self.ementa)

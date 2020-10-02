@@ -27,6 +27,7 @@ How it's being built:
 - docker-compose.yml
 - $ docker-compose build
 - run the container $ docker-compose up -d
+- Bokeh counter and graph rendering
 
 
 # Endpoints for GET, POST, PUT and DELETE:
@@ -52,3 +53,5 @@ How it's being built:
 - https://github.com/beatrizuezu/de-sql-para-orm-django/tree/master/core/categorias
 - https://testdriven.io/blog/dockerizing-django-with-postgres-gunicorn-and-nginx/
 - https://docs.docker.com/engine/reference/builder/
+- https://github.com/theyogicoderRI/DjangoInchByInch/blob/master/Data%20Visualization%20Django%20And%20Bokeh/views.py
+- https://github.com/cryptopotluck/plotly-dash-django-udemy/blob/master/home/views.py

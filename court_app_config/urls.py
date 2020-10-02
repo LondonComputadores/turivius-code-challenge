@@ -15,11 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from court_app.views import LawsuitViewSet
+from court_app.views import LawsuitViewSet, Status
 from rest_framework import routers
+from django.urls import path 
 
 router = routers.DefaultRouter()
 router.register(r'lawsuits', LawsuitViewSet)
+router.register(r'status', LawsuitViewSet)
 
 urlpatterns = [
     path('', include(router.urls)), # routers may be replaced by court_app if wished
