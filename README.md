@@ -36,6 +36,7 @@ How it's being built:
 - /lawsuits/id
 - /admin
 - /admin/court_app/lawsuit/
+- /status
 
 
 # References:
@@ -55,3 +56,4 @@ How it's being built:
 - https://docs.docker.com/engine/reference/builder/
 - https://github.com/theyogicoderRI/DjangoInchByInch/blob/master/Data%20Visualization%20Django%20And%20Bokeh/views.py
 - https://github.com/cryptopotluck/plotly-dash-django-udemy/blob/master/home/views.py
+- https://www.django-rest-framework.org/api-guide/renderers/
