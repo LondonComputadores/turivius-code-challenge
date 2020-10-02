@@ -21,6 +21,7 @@ class LawsuitViewSet(viewsets.ModelViewSet):
 
 
 class Status(Lawsuit):
+    
     def status(request):
 
         loss = 0
