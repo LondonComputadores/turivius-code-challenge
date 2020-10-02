@@ -14,8 +14,8 @@
         "pk": 2,
         "fields": {
           "n_processo": "202011552",
-          "id_cliente": 1,
-          "favor_contribuinte": 1,
+          "id_cliente": 2,
+          "favor_contribuinte": 2,
           "ementa": "aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbcccccc..."
         }
     },
@@ -24,8 +24,8 @@
         "pk": 3,
         "fields": {
           "n_processo": "202011553",
-          "id_cliente": 1,
-          "favor_contribuinte": 1,
+          "id_cliente": 3,
+          "favor_contribuinte": 2,
           "ementa": "aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbcccccc..."
         }
       },
@@ -34,8 +34,8 @@
         "pk": 4,
         "fields": {
           "n_processo": "202011554",
-          "id_cliente": 1,
-          "favor_contribuinte": 1,
+          "id_cliente": 4,
+          "favor_contribuinte": 3,
           "ementa": "aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbcccccc..."
         }
       },
@@ -44,8 +44,8 @@
         "pk": 5,
         "fields": {
           "n_processo": "202011555",
-          "id_cliente": 1,
-          "favor_contribuinte": 1,
+          "id_cliente": 5,
+          "favor_contribuinte": 3,
           "ementa": "aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbcccccc..."
         }
       },
@@ -54,8 +54,8 @@
         "pk": 6,
         "fields": {
           "n_processo": "202011556",
-          "id_cliente": 1,
-          "favor_contribuinte": 1,
+          "id_cliente": 6,
+          "favor_contribuinte": 3,
           "ementa": "aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbcccccc..."
         }
       }
