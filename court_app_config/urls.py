@@ -21,7 +21,6 @@ from court_app import views
 
 router = routers.DefaultRouter()
 router.register(r'lawsuits', LawsuitViewSet)
-router.register(r'lawsuits/status', LawsuitViewSet)
 
 urlpatterns = [
     path('', include(router.urls)), # router may be replaced by court_app if wished
