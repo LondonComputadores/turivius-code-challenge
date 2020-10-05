@@ -17,7 +17,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 FIXTURE_DIRS = (
-   '/court_app/fixtures/fixtures.json/',
+   '/court_app/fixtures/lawsuits_okay.json/',
 )
 
 
