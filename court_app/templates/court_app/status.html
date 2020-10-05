@@ -1,12 +1,27 @@
 
 <title>Status Count Graph</title>
 
+<head>
+    <link rel="stylesheet" type="text/css" href="http://cdn.pydata.org/bokeh/release/bokeh-1.1.0.min.css"/>
+    <link rel="stylesheet" type="text/css" href="http://cdn.pydata.org/bokeh/release/bokeh-widgets-1.1.0.min.css"/>
+    <link rel="stylesheet" type="text/css" href="http://cdn.pydata.org/bokeh/release/bokeh-tables-1.1.0.min.css"/>
+    <title>Bokeh</title>
+</head>
 
 <h1>Bokeh Status Count Graph <h1>
 
+<body> 
+    {{div| safe}}
+</body>
+    <script type="text/javascript" src="http://cdn.pydata.org/bokeh/release/bokeh-1.1.0.min.js"></script>
+    <script type="text/javascript" src="http://cdn.pydata.org/bokeh/release/bokeh-widgets-1.1.0.min.js"></script>
+    <script type="text/javascript" src="http://cdn.pydata.org/bokeh/release/bokeh-tables-1.1.0.min.js"></script>
+    <script type="text/javascript" src="http://cdn.pydata.org/bokeh/release/bokeh-api-1.1.0.min.js"></script> 
+    {{script | safe}}
+</html>
 
 {% for script in scripts %}
 
-<h2>{{ script.stat }}</h2>
+<h2>{{ scripts }}</h2>
 
 {% endfor %}
