@@ -57,3 +57,4 @@ How it's being built:
 - https://github.com/theyogicoderRI/DjangoInchByInch/blob/master/Data%20Visualization%20Django%20And%20Bokeh/views.py
 - https://github.com/cryptopotluck/plotly-dash-django-udemy/blob/master/home/views.py
 - https://www.django-rest-framework.org/api-guide/renderers/
+- https://hackernoon.com/integrating-bokeh-visualisations-into-django-projects-a1c01a16b67a
