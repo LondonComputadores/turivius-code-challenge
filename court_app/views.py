@@ -3,7 +3,7 @@ from court_app.models import Lawsuit
 from court_app.serializers import LawsuitSerializer
 
 from django.shortcuts import render
-from bokeh.plotting import figure
+from bokeh.plotting import figure, output_file, show
 from bokeh.embed import components
 from bokeh.models import HoverTool, LassoSelectTool, WheelZoomTool, PointDrawTool, ColumnDataSource
 
@@ -40,9 +40,9 @@ def status(request):
     plot.vbar(items, top=counts, width=.4, color= "firebrick", legend="Status Counts")
     plot.legend.label_text_font_size = '14pt'
 
-    scripts = components(plot)
+    script, div = components(plot)
 
-    return render(request, 'court_app/status.html', {'scripts':scripts})
+    return render(request, 'court_app/status.html', {'script': script, 'div': div})
 
 
 class LawsuitViewSet(viewsets.ModelViewSet):
