@@ -1,7 +1,9 @@
                     
                     # Turivius-Code-Challenge
 
-This is a code challenge as part of the Turivius recruitment process
+## This is a code challenge as part of the Turivius recruitment process
+
+### In this code challenge I'm developing a couple of apps as 2 different microservices where one is a django admin and the other one where is a django rest api app fot consuming a certain website or database with sql and orm for data persistence.
 
 How it's being built:
 
