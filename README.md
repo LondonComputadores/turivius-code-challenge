@@ -1,7 +1,16 @@
                     
                     # Turivius-Code-Challenge
 
-This is a code challenge as part of the Turivius recruitment process
+## This is a code challenge as part of the Turivius recruitment process
+
+### In this code challenge I'm developing a couple of apps as 2 different microservices where one is a django admin and the other one where is a django rest api app for consuming a manually populated json database, with sql and orm for data persistence, having to finally to render the results to a webpage. As extra efforts, I'm creating a helpful and organized readme file and dockerize this project making sure it works equally in any computer which supports and contains docker installed.
+
+#### Required Stack:
+- Python
+- Django Framework
+- Django REST Framework
+- Bokeh Library
+- SQL
 
 How it's being built:
 
