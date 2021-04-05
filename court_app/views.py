@@ -19,7 +19,7 @@ def status(request):
     share = 0
     win = 0
     counts = []
-    items = ["Loss", "Share", "Shirts"]
+    items = ["Loss", "Share", "Win"]
 
     stat = Lawsuit.objects.values()
     
@@ -37,7 +37,7 @@ def status(request):
     plot.title.text_font_size = '20pt'
     
     plot.xaxis.major_label_text_font_size = "14pt" 
-    plot.vbar(items, top=counts, width=.4, color= "firebrick", legend="Status Counts")
+    plot.vbar(items, top=counts, width=.4, color= "firebrick", legend_label="Status Counts")
     plot.legend.label_text_font_size = '14pt'
 
     script, div = components(plot)
